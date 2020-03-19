@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.Acceuil"
+            prefHeight="500" prefWidth="800"
+            style="-fx-background-color: white;">
+    <children>
+        <Button layoutX="25.0" layoutY="255.0" mnemonicParsing="false" onAction="#Menu" prefHeight="84.0" prefWidth="201.0" style="-fx-background-color: #B0C4DE; -fx-background-radius: 25;" text="Menu" textFill="#575968">
+            <font>
+                <Font name="Comic Sans MS" size="40.0" />
+            </font>
+        </Button>
+        <Button layoutX="246.0" layoutY="250.0" mnemonicParsing="false" onAction="#Commandes" prefHeight="77.0" prefWidth="282.0" style="-fx-background-color: #B0C4DE; -fx-background-radius: 25;" text="Commandes" textFill="#575968">
+            <font>
+                <Font name="Comic Sans MS" size="40.0" />
+            </font>
+        </Button>
+        <Button layoutX="547.0" layoutY="250.0" mnemonicParsing="false" onAction="#Caisse" prefHeight="85.0" prefWidth="225.0" style="-fx-background-color: #B0C4DE; -fx-background-radius: 25;" text="Caisse" textFill="#575968">
+            <font>
+                <Font name="Comic Sans MS" size="40.0" />
+            </font>
+        </Button>
+        <Label layoutX="28.0" layoutY="88.0" prefHeight="70.0" prefWidth="397.0" text="Bienvenue au Restaurant" textFill="#575968">
+            <font>
+                <Font name="Comic Sans MS" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="NomRestaurant" layoutX="411.0" layoutY="76.0" prefHeight="94.0" prefWidth="208.0" text="." textFill="#788aa1">
+            <font>
+                <Font name="Arial Italic" size="30.0" />
+            </font>
+        </Label>
+        <Button layoutX="25.0" layoutY="435.0" mnemonicParsing="false" onAction="#Deconnexion" prefHeight="45.0" prefWidth="146.0" style="-fx-background-color: #B0C4DE; -fx-background-radius: 25;" text="Se Déconnecter" textFill="#575968">
+            <font>
+                <Font name="Comic Sans MS" size="16.0" />
+            </font>
+        </Button>
+    </children>
+
+
+</AnchorPane>
